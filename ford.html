@@ -11,8 +11,8 @@
 	 <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="icon" href="img/logo1.png">
 
-	<Style>form{color: white;}</Style>
 
 </head>
 
@@ -20,62 +20,61 @@
 	<div class="container">
 
 		<!--NavBar-->
-	    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-  			<a class="navbar-brand" href="index.html">
-  				<img src="img/logo1.png" width="55" height="40">
-  			</a>
-  			
-  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="			#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-    			<span class="navbar-toggler-icon"></span>
-  			</button>
-  			<div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-    			<ul class="navbar-nav mr-auto">
-    				<li class="nav-item active">
-        				<a class="nav-link" href="index.html"> Home <span class="sr-only">(página atual)</span></a>
-      				</li>
-
-      				<li class="nav-item dropdown"> <!--inicio dropdown-->
-        				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>
-        				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          					<a class="dropdown-item" href="#">Carros Antigos</a>
-          					<a class="dropdown-item" href="#">Carros Novos</a>
-          					<a class="dropdown-item" href="#">Carros Seminovos</a>
-          					<a class="dropdown-item" href="#">Carros de Luxo</a>
-        				</div>
-      				</li><!--Fim Dropdown-->  
-              <li class="nav-item active">
-                <a class="nav-link" href="catalogo.html"> Catálogo <span class="sr-only">(página atual)</span></a>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo1.png" width="55" height="40">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="     #conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html"> Home </a>
               </li>
+
+              <li class="nav-item dropdown"> <!--inicio dropdown Categorias-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item disabled" href="#">Carros Antigos</a>
+                    <a class="dropdown-item disabled" href="#">Carros Novos</a>
+                    <a class="dropdown-item disabled" href="#">Carros Seminovos</a>
+                    <a class="dropdown-item disabled" href="#">Carros de Luxo</a>
+                </div>
+              </li><!--Fim Dropdown Categorias-->  
+               <li class="nav-item dropdown"><!--Inicio dropdown Marcas-->
+                <div class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marcas</div>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="ford.html">Ford</a>
+                  <a class="dropdown-item" href="chevrolet.html">Chevrolet</a>
+                  <a class="dropdown-item" href="honda.html">Honda</a>
+                  <a class="dropdown-item" href="fiat.html">Fiat</a>
+                  <a class="dropdown-item" href="bmw.html">BMW</a>
+                  <a class="dropdown-item" href="toyota.html">Toyota</a>
+                </div>
+              </li><!--Fim dropdown categorias-->
+      
+
                 <li class="nav-item active">
-                <a class="nav-link" href="sobre.html"> Sobre <span class="sr-only">(página atual)</span></a>
+                <a class="nav-link" href="sobre.html"> Sobre</a>
               </li>
 
-      				<li class="nav-item">
-  						<a class="nav-link active" href="#">Cadastrar</a>
-  					</li>  				
-    			</ul>   								 
-  			
+                      
+          </ul>                    
+        
+        <a type="button" href="logon.html" class="btn btn-danger active" role="button" aria-pressed="true">Sign in</a>
+        <a type="button" href="cadastro.html" class="btn btn-danger active" role="button" aria-pressed="true">Sign up</a>
 
-  			</div>
-  			
-  			<form class="form-inline"><!--Inicio Logon-->
-  				<div class="form-group mb-2">
-    				<label for="exampleInputEmail1"></label>
-    				<input type="email" class="form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
-    				
-  				</div>
-  				<div class="form-group mx-sm-3 mb-2">
-    				<label for="exampleInputPassword1"></label>
-    				<input type="password" class="form-control-sm" id="exampleInputPassword1" placeholder="Senha">
-  				</div>
-  				<button type="submit" class="btn btn-primary btn-sm">Entrar</button>
-				</form><!--Fim Logon-->
+        </div>
+        
+        
 
 
-		</nav> <!--Fim NavBar-->
+    </nav> <!--Fim NavBar-->
 
 
-  <div class="jumbotron jumbotron-secondary bg-secondary"> <!--Jumbotron Inicio-->
+  <div class="jumbotron "> <!--Jumbotron Inicio-->
   <h3>FORD AUTOMOVEIS</h3>
 
     <center>
@@ -86,7 +85,7 @@
             <h5 class="card-title">FORD ECOSPORT<span class="badge badge-secondary">Novo</span></h5>
 
             <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="Compra.html" class="btn btn-primary">Comprar</a>
           </div>
       </div>
           <div class="card" style="width: 18rem;">
@@ -94,7 +93,7 @@
           <div class="card-body">
             <h5 class="card-title">FORD EDGE<span class="badge badge-secondary">Novo</span></h5>
             <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="Compra.html" class="btn btn-primary">Comprar</a>
           </div>
       </div>
       <div class="card" style="width: 18rem;">
@@ -102,8 +101,10 @@
           <div class="card-body">
             <h5 class="card-title">FORD FIESTA<span class="badge badge-secondary">Novo</span></h5>
             <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="Compra.html" class="btn btn-primary">Comprar</a>
     </div>
+    </div>
+</div>
 
     </center>
     <center>
@@ -114,7 +115,7 @@
             <h5 class="card-title">FORD FUSION<span class="badge badge-secondary">Novo</span></h5>
 
             <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="Compra.html" class="btn btn-primary">Comprar</a>
           </div>
       </div>
           <div class="card" style="width: 18rem;">
@@ -122,7 +123,7 @@
           <div class="card-body">
             <h5 class="card-title">FORD KA<span class="badge badge-secondary">Novo</span></h5>
             <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="Compra.html" class="btn btn-primary">Comprar</a>
           </div>
       </div>
       <div class="card" style="width: 18rem;">
@@ -130,7 +131,17 @@
           <div class="card-body">
             <h5 class="card-title">FORD MUSTANG<span class="badge badge-secondary">Novo</span></h5>
             <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <a href="Compra.html" class="btn btn-primary">Comprar</a>
     </div>
+    </div>
+</div>
 
     </center>
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+
+</html>

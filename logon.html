@@ -10,7 +10,7 @@
     	<meta name="author" content="">
     	<link rel="icon" href="img/logo1.png">
 
-    	<title>login</title>
+    	<title>Login - Possivel Projeto</title>
 
     
     	<link href="css/bootstrap.css" rel="stylesheet">
@@ -19,7 +19,63 @@
     	<link href="css/signin.css" rel="stylesheet">
   		</head>
       
-  		<body class="text-center">
+  		<body style='margin-top:80px;' class="text-center">
+
+        <!--NavBar-->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo1.png" width="55" height="40">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="     #conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html"> Home </a>
+              </li>
+
+              <li class="nav-item dropdown"> <!--inicio dropdown Categorias-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item disabled" href="#">Carros Antigos</a>
+                    <a class="dropdown-item disabled" href="#">Carros Novos</a>
+                    <a class="dropdown-item disabled" href="#">Carros Seminovos</a>
+                    <a class="dropdown-item disabled" href="#">Carros de Luxo</a>
+                </div>
+              </li><!--Fim Dropdown Categorias-->  
+               <li class="nav-item dropdown"><!--Inicio dropdown Marcas-->
+                <div class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marcas</div>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="ford.html">Ford</a>
+                  <a class="dropdown-item" href="chevrolet.html">Chevrolet</a>
+                  <a class="dropdown-item" href="honda.html">Honda</a>
+                  <a class="dropdown-item" href="fiat.html">Fiat</a>
+                  <a class="dropdown-item" href="bmw.html">BMW</a>
+                  <a class="dropdown-item" href="toyota.html">Toyota</a>
+                </div>
+              </li><!--Fim dropdown categorias-->
+      
+
+                <li class="nav-item active">
+                <a class="nav-link" href="sobre.html"> Sobre</a>
+              </li>
+
+                      
+          </ul>                    
+        
+        <a type="button" href="logon.html" class="btn btn-danger active" role="button" aria-pressed="true">Sign in</a>
+        <a type="button" href="cadastro.html" class="btn btn-danger active" role="button" aria-pressed="true">Sign up</a>
+
+        </div>
+        
+        
+
+
+    </nav> <!--Fim NavBar-->
+
+
     	<form class="form-signin">
      	 <img class="mb-4" src="img/logo1.png" alt="" width="80" height="72">
       	<h1 class="h3 mb-3 font-weight-normal">Faça login</h1>
@@ -33,9 +89,16 @@
         </label>
       </div>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+      <a class="btn btn-lg btn-primary btn-block" href="#" role="button">Cadastrar</a>
       <p class="mt-5 mb-3 text-muted">© 2020</p>
     </form>
   
 
 	</body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </html>
